@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+bootbox.confirm('<h4>${1:Texto}</h4>', function(r) {
+    if (r) {
+        ${2://code...}
+    }
+});
+]]></content>
+    <tabTrigger>js:bbox:conf</tabTrigger>
+    <scope>source.js</scope>
+    <description>Bootbox confirm</description>
+</snippet>

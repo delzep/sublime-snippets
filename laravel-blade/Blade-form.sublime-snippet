@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+{!! Form::open(
+        array(
+            'url' => env('PREFIJO_APP') . '/${1:URL}',
+            'id'  => '${2:Id}',
+            'class'=> '${3:Class}'
+        ), 
+        array(
+            'role' => 'form'
+        )
+    )
+!!}
+    ${4:'HTML'}
+{!! Form::close() !!}
+]]></content>
+    <tabTrigger>bld:form</tabTrigger>
+    <scope>text.html</scope>
+    <description>Blade Form::open</description>
+</snippet>

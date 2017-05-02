@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+bootbox.alert('<h4>${1:Texto}</h4>');
+]]></content>
+    <tabTrigger>js:bbox:alert</tabTrigger>
+    <scope>source.js</scope>
+    <description>Bootbox alert</description>
+</snippet>

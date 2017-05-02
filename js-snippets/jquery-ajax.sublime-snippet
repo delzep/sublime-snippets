@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+
+\$.ajax({
+    url: '${1:URL}',
+    type: '${2:post}',
+    data: ${3:{var : val}},
+    beforeSend: function() {
+        ${4://code...}
+    },
+    success:function(r) {
+        ${5://code...}
+    }
+});
+
+]]></content>
+    <tabTrigger>js:ajax</tabTrigger>
+    <scope>source.js</scope>
+    <description>Función $ajax</description>
+</snippet>

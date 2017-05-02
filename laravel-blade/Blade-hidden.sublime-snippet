@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{!! Form::hidden('${1:nombre}', ${2:null} , array ('class' => '${3:clase}')) !!}
+]]></content>
+    <tabTrigger>bld:hidden</tabTrigger>
+    <scope>text.html</scope>
+    <description>Blade @hidden</description>
+</snippet>
